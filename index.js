@@ -48,7 +48,7 @@ app.get('/login', (req,res)=>{
     res.send("this is a login page")
 })
 
-app.get('github', (req,res)=>{
+app.get('/github', (req,res)=>{
     res.json(myGithubData)
 })
 app.listen(process.env.PORT, () => {
